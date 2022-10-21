@@ -1,0 +1,315 @@
+/* reset for css */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    display: block;
+  }
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+/* header */
+.header{
+    background-color: #373A3C;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.header__wrap{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+}
+.header__logo{}
+.header__logo__img{}
+.header__list__block{
+    display: flex;
+}
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 287px;
+    align-items: center;
+}
+.list__item::after{
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    margin-left: 15px;
+    align-items: center;
+    content:'';
+    background-image: url(../img/down-arrow.svg);
+}
+.list__item__reg::after{
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    margin-left: 15px;
+    content:'';
+    background-image: url(../img/down-arrow.svg);
+}
+.list__item__reg::before{
+    padding-right: 9px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    content:'';
+    background-image: url(../img/user.svg);
+    background-repeat: no-repeat;
+}
+.list__item{
+    padding-right: 40px;
+}
+.list__item1{
+    padding-right: 37px;
+}
+.text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.header__list__input{
+    width: 209.8px;
+    height: 38px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;  
+    background-color: #FFFF;
+    padding-left: 16px;
+}
+.header__input__block{
+    padding-right: 24px;
+}
+.list__item__reg{
+    padding-right: 16px;
+}
+
+/* section1 */
+
+.section{
+    background-image: url(../img/Star-Wars-Battlefront-II-combat.svg);
+    height: 643px;
+}
+.section__wrap{
+    
+}
+.section__title{
+    padding-top: 206px;
+    margin-left: 831px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.section__subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-left: 831px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.btn{
+    width: 136px;
+    height: 38px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+}
+.section__first__button{
+    background-color: #8DD83D;
+    margin-top: 135px;
+    margin-left: 831px;
+}
+.section__second__button{
+    background-color: #373A3C;
+    margin-left: 13px;
+}
+.section__indicators{
+    margin-top: 147px;
+    display: flex;
+    justify-content: center;
+}
+
+/* second section */
+.section2{
+    height: 865px;
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+.section2__wrap{}
+.section2__logo{
+    padding-top: 64px;
+    display: flex;
+    justify-content: center;
+}
+.section2__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    padding-top: 16px; 
+    display: flex;
+    justify-content: center;
+}
+.section2__subtitle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF; 
+}
+/*  infoblocks */
+.section2__blocks{
+    display: flex;
+    justify-content: space-around;
+}
+.section2__infoblock1{
+    width: 318px;
+    height: 420px;
+    margin-top: 44px;
+    
+    background-color: #FFFFFF;
+}
+.section2__infoblock__img{}
+.section2__infoblock__under__img{
+
+}
+.section2__infoblock__subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #435766;
+    padding-top: 22px;
+    padding-left: 22px;
+}
+.section2__infoblock__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #435766;
+    padding-top: 13px;
+    padding-left: 22px;
+}
+.button{
+    border: none;
+    background: #8DD83D;
+    border-radius: 4px;
+    width: 276px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 21px;
+    margin-bottom: 27px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+/* second infoblock */
+.section2__infoblock2{
+    width: 318px;
+    height: 420px;
+    margin-top: 44px;
+    background-color: #FFFFFF;
+}
+.section2__infoblock__img2{
+    padding-top: 54px;
+    display: flex;
+    justify-content: center;
+    
+}
+.section2__infoblock__under__img{
+
+}
+.section2__infoblock__subtitle2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #435766;
+    padding-top: 88px;
+    padding-left: 22px;
+}
+.section2__infoblock__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #435766;
+    padding-top: 13px;
+    padding-left: 22px;
+}
+/* third infoblock */
+.section2__infoblock3{
+    width: 318px;
+    height: 420px;
+    margin-top: 44px;
+    background-color: #FFFFFF;
+}
+.section2__infoblock__img3{
+    padding-top: 54px;
+    display: flex;
+    justify-content: center;
+    
+}
+.section2__infoblock__under__img{
+
+}
+.section2__infoblock__subtitle3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #435766;
+    padding-top: 40px;
+    padding-left: 22px;
+}
+.section2__infoblock__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #435766;
+    padding-top: 13px;
+    padding-left: 22px;
+}
+/* section 3 */
